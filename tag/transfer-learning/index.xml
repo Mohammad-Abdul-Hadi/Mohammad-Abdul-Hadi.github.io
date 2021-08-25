@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Transfer Learning | Mohammad Abdul Hadi</title>
-    <link>/tag/transfer-learning/</link>
-      <atom:link href="/tag/transfer-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://Mohammad-Abdul-Hadi.github.io/tag/transfer-learning/</link>
+      <atom:link href="https://Mohammad-Abdul-Hadi.github.io/tag/transfer-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Transfer Learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2021</copyright><lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu837153259aa3eaf233be5c21ab790472_13982_512x512_fill_lanczos_center_2.png</url>
+      <url>https://Mohammad-Abdul-Hadi.github.io/images/icon_hu837153259aa3eaf233be5c21ab790472_13982_512x512_fill_lanczos_center_2.png</url>
       <title>Transfer Learning</title>
-      <link>/tag/transfer-learning/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/tag/transfer-learning/</link>
     </image>
     
     <item>
       <title>Empirical Study on PTMs for App Reviews classification</title>
-      <link>/project/ptm-ar-classification/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/ptm-ar-classification/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/project/ptm-ar-classification/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/ptm-ar-classification/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Mobile app reviews written by users on app stores or social media are significant resources for app developers.Analyzing app reviews have proved to be useful for many areas of software engineering (e.g., requirement engineering, testing). Automatic classification of app reviews requires extensive efforts to manually curate a labeled dataset. When the classification purpose changes (e.g. identifying bugs versus usability issues or sentiment), new datasets should be labeled, which prevents the extensibility of the developed models for new desired classes/tasks in practice. Recent pre-trained neural language models (PTM) are trained on large corpora in an unsupervised manner and have found success in solving similar Natural Language Processing problems. However, the applicability of PTMs is not explored for app review classification.&lt;/p&gt;
 &lt;h2 id=&#34;objective&#34;&gt;Objective:&lt;/h2&gt;
@@ -43,9 +43,9 @@
     
     <item>
       <title>AOBTM</title>
-      <link>/project/aobtm/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/aobtm/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/project/aobtm/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/aobtm/</guid>
       <description>&lt;p&gt;Analysis of mobile app reviews has shown its important role in requirement engineering, software maintenance and evolution of mobile apps. Mobile app developers check their users&amp;rsquo; reviews frequently to clarify the issues experienced by users or capture the new issues that are introduced due to a recent app update. App reviews have a dynamic nature and their discussed topics change over time. The changes in the topics among collected reviews for different versions of an app can reveal important issues about the app update. A main technique in this analysis is using topic modeling algorithms. However, app reviews are short texts and it is challenging to unveil their latent topics over time. Conventional topic models such as Latent Dirichlet Allocation (LDA) and Probabilistic Latent Semantic Analysis (PLSA) suffer from the sparsity of word co-occurrence patterns while inferring topics for short texts. Furthermore, these algorithms cannot capture topics over numerous consecutive time-slices (or versions). Online topic modeling algorithms such as Online LDA (OLDA) and Online Biterm Topic Model (OBTM) speed up the inference of topic models for the texts collected in the latest time-slice by saving a fraction of data from the previous time-slice. But these algorithms do not analyze the statistical-data of all the previous time-slices, which can confer contributions to the topic distribution of the current time-slice.In this paper, we propose Adaptive Online Biterm Topic Model (AOBTM) to model topics in short texts adaptively. AOBTM alleviates the sparsity problem in short-texts and considers the statistical-data for an optimal number of previous time-slices. We also propose parallel algorithms to automatically determine the optimal number of topics and the best number of previous versions that should be considered in topic inference phase. Automatic evaluation on collections of app reviews and real-world short text datasets confirm that AOBTM can find more coherent topics and outperforms the state-of-the-art baselines. For reproducibility of the results, we open source all scripts.&lt;/p&gt;
 &lt;p&gt;In this paper, we propose a new adaptive online topic model for short texts which takes previous versions’ varying contribution into account. We refer to this novel model as the Adaptive Online Biterm Topic Model (AOBTM). AOBTM inherits the characteristics of BTM to deal with the data sparsity issue. It is an online algorithm that can scale for the increasing volume of the dataset that is generated frequently. AOBTM also endows the statistics of the previous versions with different contributions to the topic distributions of the current version of the dataset. Also, we have employed a preprocessing technique that is useful for yielding better top contributing key-terms to help the manual investigation of the inferred topics. Our contributions are enlisted below:&lt;/p&gt;
 &lt;ul&gt;
