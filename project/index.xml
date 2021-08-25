@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Mohammad Abdul Hadi</title>
-    <link>https://Mohammad-Abdul-Hadi.github.io/project/</link>
-      <atom:link href="https://Mohammad-Abdul-Hadi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2021</copyright><lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://Mohammad-Abdul-Hadi.github.io/images/icon_hu837153259aa3eaf233be5c21ab790472_13982_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu837153259aa3eaf233be5c21ab790472_13982_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/project/</link>
+      <link>/project/</link>
     </image>
     
     <item>
       <title>Empirical Study on PTMs for App Reviews classification</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/project/ptm-ar-classification/</link>
+      <link>/project/ptm-ar-classification/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://Mohammad-Abdul-Hadi.github.io/project/ptm-ar-classification/</guid>
+      <guid>/project/ptm-ar-classification/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Mobile app reviews written by users on app stores or social media are significant resources for app developers.Analyzing app reviews have proved to be useful for many areas of software engineering (e.g., requirement engineering, testing). Automatic classification of app reviews requires extensive efforts to manually curate a labeled dataset. When the classification purpose changes (e.g. identifying bugs versus usability issues or sentiment), new datasets should be labeled, which prevents the extensibility of the developed models for new desired classes/tasks in practice. Recent pre-trained neural language models (PTM) are trained on large corpora in an unsupervised manner and have found success in solving similar Natural Language Processing problems. However, the applicability of PTMs is not explored for app review classification.&lt;/p&gt;
 &lt;h2 id=&#34;objective&#34;&gt;Objective:&lt;/h2&gt;
@@ -43,9 +43,9 @@
     
     <item>
       <title>AOBTM</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/project/aobtm/</link>
+      <link>/project/aobtm/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://Mohammad-Abdul-Hadi.github.io/project/aobtm/</guid>
+      <guid>/project/aobtm/</guid>
       <description>&lt;p&gt;Analysis of mobile app reviews has shown its important role in requirement engineering, software maintenance and evolution of mobile apps. Mobile app developers check their users&amp;rsquo; reviews frequently to clarify the issues experienced by users or capture the new issues that are introduced due to a recent app update. App reviews have a dynamic nature and their discussed topics change over time. The changes in the topics among collected reviews for different versions of an app can reveal important issues about the app update. A main technique in this analysis is using topic modeling algorithms. However, app reviews are short texts and it is challenging to unveil their latent topics over time. Conventional topic models such as Latent Dirichlet Allocation (LDA) and Probabilistic Latent Semantic Analysis (PLSA) suffer from the sparsity of word co-occurrence patterns while inferring topics for short texts. Furthermore, these algorithms cannot capture topics over numerous consecutive time-slices (or versions). Online topic modeling algorithms such as Online LDA (OLDA) and Online Biterm Topic Model (OBTM) speed up the inference of topic models for the texts collected in the latest time-slice by saving a fraction of data from the previous time-slice. But these algorithms do not analyze the statistical-data of all the previous time-slices, which can confer contributions to the topic distribution of the current time-slice.In this paper, we propose Adaptive Online Biterm Topic Model (AOBTM) to model topics in short texts adaptively. AOBTM alleviates the sparsity problem in short-texts and considers the statistical-data for an optimal number of previous time-slices. We also propose parallel algorithms to automatically determine the optimal number of topics and the best number of previous versions that should be considered in topic inference phase. Automatic evaluation on collections of app reviews and real-world short text datasets confirm that AOBTM can find more coherent topics and outperforms the state-of-the-art baselines. For reproducibility of the results, we open source all scripts.&lt;/p&gt;
 &lt;p&gt;In this paper, we propose a new adaptive online topic model for short texts which takes previous versions’ varying contribution into account. We refer to this novel model as the Adaptive Online Biterm Topic Model (AOBTM). AOBTM inherits the characteristics of BTM to deal with the data sparsity issue. It is an online algorithm that can scale for the increasing volume of the dataset that is generated frequently. AOBTM also endows the statistics of the previous versions with different contributions to the topic distributions of the current version of the dataset. Also, we have employed a preprocessing technique that is useful for yielding better top contributing key-terms to help the manual investigation of the inferred topics. Our contributions are enlisted below:&lt;/p&gt;
 &lt;ul&gt;
@@ -65,9 +65,9 @@
     
     <item>
       <title>Review-Viz</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/project/review-viz/</link>
+      <link>/project/review-viz/</link>
       <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://Mohammad-Abdul-Hadi.github.io/project/review-viz/</guid>
+      <guid>/project/review-viz/</guid>
       <description>&lt;p&gt;In our recent work, we have developed a replication package for the mobile application developers to help them isolate/classify energyrelated feedbacks from app-reviews and further investigate these reviews for potential issues crucial to the energy efficiency of the application. This package lets the developer decide which model to use and which features to choose based on their convenience at any given time. Additionally, the package helps the developer to deploy topic modeling algorithms to identify new issues/causes related to energy efficiency. Using this package, we have performed an empirical study with the participation of 4 developers. They have exhaustively performed all the models, feature combinations, and different topic modeling algorithms and carefully examined the generated result set manually.&lt;/p&gt;
 &lt;h2 id=&#34;contribution&#34;&gt;Contribution&lt;/h2&gt;
 &lt;p&gt;The resultant computational analysis (much like the output of our replication package) can be effectively combined with human reasoning with the help of powerful visualization that could lead to increased efficiency and more valuable results. So, we developed an interactive visualization tool to help the developers assimilate the result of the discussed empirical study of over 90 models, features combinations. Additionally, The tool also helps to visualize the output of the topic modeling algorithms to identify recent potential issues most likely to cause energy inefficiency in the app. For flexibility, it gives the developers options to choose the representation of a certain outcome.&lt;/p&gt;
@@ -80,9 +80,9 @@
     
     <item>
       <title>Geo Spaial Data Visualization</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/project/geo-spatial-election-viz/</link>
+      <link>/project/geo-spatial-election-viz/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://Mohammad-Abdul-Hadi.github.io/project/geo-spatial-election-viz/</guid>
+      <guid>/project/geo-spatial-election-viz/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Open data published by various organizations is intended to make the data available to the public. All over the world, numerous organizations maintain a considerable number of open databases containing a lot of facts and numbers. However, most of them do not offer a concise and insightful data interpretation or visualization tool, which can help users to process all of the information in a consistently comparable way. Canadian Federal and Provincial Elections is an example of these databases. This information exists in numerous websites, as separate tables so that the user needs to traverse through a tree structure of scattered information on the site, and the user is left with the comparison, without providing proper tools, datainterpretation or visualizations.&lt;/p&gt;
 &lt;p&gt;In this paper, we provide technical details of addressing this problem, by using the Canadian Elections data (since 1867) as a specific case study as it has numerous technical challenges. We hope that the methodology used here can help in developing similar tools to achieve some of the goals of publicly available datasets. The developed tool contains data visualization, trend analysis, and prediction components. The visualization enables the users to interact with the data through various techniques, including Geospatial visualization. To reproduce the results, we have open-sourced the tool.&lt;/p&gt;
@@ -104,6 +104,27 @@ This database contains information on Canadian federal, provincial, and territor
 &lt;p&gt;In the second component of the tool, we have generated Geo-spatial map using R script. We needed get the actual map data with longitude and latitude information. In the case of Canada, central statistics agency provided map shape files that we could use. The Shape File format (.shp) is the most widely-used standard for maps. We grabbed the files to convert them to a format the tidyverse library can use.&lt;/p&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Open data is meant to be used by the public and provide data-driven decisions. However, visualization tools are required to make the data interpretable. One of the other challenges to provide the analysis and visualization tools for open data is the different formats of the data that are published by various parties in separate databases. In this paper, we provided architecture and the technical details of an open-source tool that we developed for collecting data, and visualizing and analyzing information. Although the tool is developed explicitly for Canadian Election data, the technical details and the approach can be used by researchers from various fields and developers to address the issue of open data, such as having separate databases with no interpretation tool&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internal Project</title>
+      <link>/project/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/internal-project/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     

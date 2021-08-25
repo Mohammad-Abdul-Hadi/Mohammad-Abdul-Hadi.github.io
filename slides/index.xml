@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides | Mohammad Abdul Hadi</title>
-    <link>https://Mohammad-Abdul-Hadi.github.io/slides/</link>
-      <atom:link href="https://Mohammad-Abdul-Hadi.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
+    <link>/slides/</link>
+      <atom:link href="/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2021</copyright><lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>PTM Empirical Study</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/slides/emp-study-ptm/</link>
+      <link>/slides/emp-study-ptm/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://Mohammad-Abdul-Hadi.github.io/slides/emp-study-ptm/</guid>
+      <guid>/slides/emp-study-ptm/</guid>
       <description>&lt;h1 id=&#34;evaluating-ptms-for-user-feedback-analysis-in-se&#34;&gt;Evaluating PTMS for User Feedback Analysis in SE&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://arxiv.org/pdf/2104.05861&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pre-print&lt;/a&gt; | 
@@ -89,9 +89,9 @@
     
     <item>
       <title>AOBTM</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/slides/aobtm/</link>
+      <link>/slides/aobtm/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://Mohammad-Abdul-Hadi.github.io/slides/aobtm/</guid>
+      <guid>/slides/aobtm/</guid>
       <description>&lt;h1 id=&#34;aobtm---adaptive-online-biterm-topic-model&#34;&gt;AOBTM - Adaptive Online Biterm Topic Model&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://github.com/Mohammad-Abdul-Hadi/AOBTM-Adaptive-Online-Biterm-Topic-Modeling&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt; | 
@@ -159,9 +159,9 @@
     
     <item>
       <title>Review-Viz</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/slides/review-viz/</link>
+      <link>/slides/review-viz/</link>
       <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://Mohammad-Abdul-Hadi.github.io/slides/review-viz/</guid>
+      <guid>/slides/review-viz/</guid>
       <description>&lt;h2 id=&#34;reviewviz---assisting-developers-perform-empirical-study-on-energy-related-app-reviews&#34;&gt;ReviewViz - Assisting Developers Perform Empirical Study on Energy Related App Reviews&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://github.com/Mohammad-Abdul-Hadi/Result-Set-Visualization-d3js-R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt; | 
@@ -208,9 +208,9 @@
     
     <item>
       <title>Geo Spaial Data Visualization</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/slides/geo-spatial-election-viz/</link>
+      <link>/slides/geo-spatial-election-viz/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://Mohammad-Abdul-Hadi.github.io/slides/geo-spatial-election-viz/</guid>
+      <guid>/slides/geo-spatial-election-viz/</guid>
       <description>&lt;h1 id=&#34;geo-spaial-data-visualization&#34;&gt;Geo Spaial Data Visualization&lt;/h1&gt;
 &lt;h3 id=&#34;and-critical-metrics-predictions-for-canadian-elections&#34;&gt;and Critical Metrics Predictions for Canadian Elections&lt;/h3&gt;
 &lt;p&gt;
