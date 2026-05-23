@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CNN | Mohammad Abdul Hadi</title>
+    <link>https://Mohammad-Abdul-Hadi.github.io/tag/cnn/</link>
+      <atom:link href="https://Mohammad-Abdul-Hadi.github.io/tag/cnn/index.xml" rel="self" type="application/rss+xml" />
+    <description>CNN</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2026</copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Mohammad-Abdul-Hadi.github.io/images/icon_hu_b453e4e1cf4dca05.png</url>
+      <title>CNN</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/tag/cnn/</link>
+    </image>
+    
+    <item>
+      <title>Malware Filter Framework (MFF) — CNN Optimization</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/malware-filter-framework/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/malware-filter-framework/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Optimization and engineering overhaul of Huawei&amp;rsquo;s production Malware Filter Framework (MFF) at Anshi Lab. The work combined architectural improvements to the deep learning model with low-level systems engineering to achieve a dramatic performance improvement in a production security pipeline.&lt;/p&gt;
+&lt;h2 id=&#34;cnn-optimization-via-atrous-spatial-pyramid-pooling&#34;&gt;CNN Optimization via Atrous Spatial Pyramid Pooling&lt;/h2&gt;
+&lt;p&gt;Replaced standard convolutions in MFF with &lt;strong&gt;dilated (atrous) convolutions&lt;/strong&gt; using Spatial Pyramid Pooling, enabling the model to capture multi-scale features without increasing the number of parameters. Combined with feature-profiling and memory caching, this achieved a &lt;strong&gt;315% performance boost&lt;/strong&gt; over the baseline.&lt;/p&gt;
+&lt;h2 id=&#34;model-lifecycle--engineering-excellence&#34;&gt;Model Lifecycle &amp;amp; Engineering Excellence&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LLMOps Pipelines Management&lt;/strong&gt;: Directed multiple lifecycle components including Model Versioners, Validators, Regression Testing, Runtimes, Schedulers, Domain/Data-Drift Detectors, and Retrainers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Module Refactoring&lt;/strong&gt;: Drove codebase restructuring and introduced industry-leading testing and software build practices to improve engineering efficiency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technology Map&lt;/strong&gt;: Linux C, user-space process development, kernel module development, memory allocation optimization, and low-level performance instrumentation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; C, TensorFlow, Linux Kernel, CI/CD, MLflow, Weights &amp;amp; Biases, Docker, Kubernetes&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

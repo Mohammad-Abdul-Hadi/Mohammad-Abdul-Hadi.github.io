@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MCP | Mohammad Abdul Hadi</title>
+    <link>https://Mohammad-Abdul-Hadi.github.io/tag/mcp/</link>
+      <atom:link href="https://Mohammad-Abdul-Hadi.github.io/tag/mcp/index.xml" rel="self" type="application/rss+xml" />
+    <description>MCP</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2026</copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Mohammad-Abdul-Hadi.github.io/images/icon_hu_b453e4e1cf4dca05.png</url>
+      <title>MCP</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/tag/mcp/</link>
+    </image>
+    
+    <item>
+      <title>Semantic LLM — Comprehensive Binary Analysis for Malware Detection</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/semantic-llm/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/semantic-llm/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A full-stack agentic AI system for zero-day binary malware analysis, built at Huawei R&amp;amp;D&amp;rsquo;s Anshi Lab. The system operates at the intersection of &lt;strong&gt;LLM for Security&lt;/strong&gt; (binary analysis) and &lt;strong&gt;Security for LLM&lt;/strong&gt; (adversarial robustness), and is deployed across heterogeneous hardware including Huawei NPU, GPU clusters, and IoT edge devices.&lt;/p&gt;
+&lt;h2 id=&#34;semantic-function-model-sfm&#34;&gt;Semantic Function Model (SFM)&lt;/h2&gt;
+&lt;p&gt;Developed two architecture variants for function-level binary analysis:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tokenless Instruction Set Transformer&lt;/strong&gt; — takes 32-dimensional architecture-specific instruction sets as input, eliminating the need for a separate tokenizer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intermediate Representation Tokenizer&lt;/strong&gt; — lifts binaries to LLVM IR with a POV Normalization Engine for architecture-agnostic analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;semantic-program-model-spm&#34;&gt;Semantic Program Model (SPM)&lt;/h2&gt;
+&lt;p&gt;Replaced Self-Attention with &lt;strong&gt;Holographic Reduced Representations (HRR)&lt;/strong&gt; in a transformer. This maps XOR-logic to the Query-Key interaction with O(T log T) complexity, enabling analysis of malicious binaries with 100,000+ functions. The symbolic binding operations act as a natural adversarial noise filter, making the model inherently resistant to adversarial attacks.&lt;/p&gt;
+&lt;h2 id=&#34;malware-analyst-llm&#34;&gt;Malware Analyst LLM&lt;/h2&gt;
+&lt;p&gt;Utilized &lt;strong&gt;Mixture-of-Experts (MoE)&lt;/strong&gt; routing across SFM and SPM pathways. Elevated the container framework with &lt;strong&gt;Agent Client Protocol (ACP)&lt;/strong&gt; and &lt;strong&gt;Model Context Protocol (MCP)&lt;/strong&gt; infrastructure that dynamically coordinates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;6 multi-turn Online Agents&lt;/strong&gt; including: Program Encoder Signature Generator, KNN Search, CFG Segment Classifier (GAT), LLM4Decompile Code Generation, and Pangu-R1 reasoning for explainability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10+ Autonomous Tools&lt;/strong&gt; including: Ghidra Pro Disassembler, LLVM IR Lifter, Static and Dynamic Behavior Logger (Emulator), and Chroma RAG-DB.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;downstream-capabilities&#34;&gt;Downstream Capabilities&lt;/h2&gt;
+&lt;p&gt;Scaled capabilities include &lt;strong&gt;Function DNA Matching&lt;/strong&gt;, vulnerability auditing, and cross-architecture code similarity search using high-dimensional function/program embeddings from SFM and SPM.&lt;/p&gt;
+&lt;h2 id=&#34;heterogeneous-hardware-deployment&#34;&gt;Heterogeneous Hardware Deployment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Huawei NPU&lt;/strong&gt;: W8A8 dynamic quantization via HiFloat (HF8) using CANN &amp;amp; ModelSlim.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IoT/Edge&lt;/strong&gt;: Progressive Teacher–Student Distillation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPU Clusters&lt;/strong&gt;: Mixed-precision training against open-source and in-house malware repositories.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; Python, C++, Assembly, PyTorch, Hugging Face (Transformers, PEFT), LoRA/QLoRA, CANN, vLLM, NVIDIA TensorRT-LLM, DSPy, PydanticAI, CrewAI, MCP, Pinecone, CPU/GPU/NPU Profiling&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

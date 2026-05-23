@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systems | Mohammad Abdul Hadi</title>
+    <link>https://Mohammad-Abdul-Hadi.github.io/tag/systems/</link>
+      <atom:link href="https://Mohammad-Abdul-Hadi.github.io/tag/systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>Systems</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2026</copyright><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Mohammad-Abdul-Hadi.github.io/images/icon_hu_b453e4e1cf4dca05.png</url>
+      <title>Systems</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/tag/systems/</link>
+    </image>
+    
+    <item>
+      <title>High-Throughput ACL Pattern Matching via GPU-Accelerated Convolution</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/acl-pattern-matching/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/acl-pattern-matching/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A high-throughput network packet filtering engine built at Huawei R&amp;amp;D. The system treats each Access Control List (ACL) rule as a 5-dimensional filter and applies a &lt;strong&gt;convolutional linear scan&lt;/strong&gt; over millions of rules for incoming packets in parallel on Tesla V100 GPUs.&lt;/p&gt;
+&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;
+&lt;h3 id=&#34;gpu-accelerated-pattern-matching-engine&#34;&gt;GPU-Accelerated Pattern Matching Engine&lt;/h3&gt;
+&lt;p&gt;Treats each ACL rule as a 5-d filter (source IP, destination IP, source port, destination port, protocol) and applies a convolutional linear scan over millions of rules for incoming packets in parallel, achieving massive throughput gains over traditional CPU-based approaches.&lt;/p&gt;
+&lt;h3 id=&#34;structure-of-arrays-soa-rule-representation&#34;&gt;Structure-of-Arrays (SoA) Rule Representation&lt;/h3&gt;
+&lt;p&gt;Proposed a novel compact representation of &lt;strong&gt;26 bytes/rule&lt;/strong&gt;, enabling coalesced memory access across threads. The system stores up to &lt;strong&gt;5M rules within 124 MB of GPU memory&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;throughput--optimization-results&#34;&gt;Throughput &amp;amp; Optimization Results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;100M packets/second&lt;/strong&gt; at 1K rules&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;~80K packets/second&lt;/strong&gt; sustained at 5M rules&lt;/li&gt;
+&lt;li&gt;Early-termination on first full match minimizes wasted computation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPU Profiler&lt;/strong&gt;: Collects GPU specs on-the-fly and sweeps block/batch sizes, delivering up to &lt;strong&gt;1.5× total-time speedup&lt;/strong&gt; for the 5M-rule case by reducing kernel time ~30% via optimal batch partitioning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; C, C++, PyTorch, Linux Kernel, CPU/GPU Profiling&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,21 +2,118 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Mohammad Abdul Hadi</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://Mohammad-Abdul-Hadi.github.io/project/</link>
+      <atom:link href="https://Mohammad-Abdul-Hadi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2021</copyright><lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2026</copyright><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu837153259aa3eaf233be5c21ab790472_13982_512x512_fill_lanczos_center_2.png</url>
+      <url>https://Mohammad-Abdul-Hadi.github.io/images/icon_hu_b453e4e1cf4dca05.png</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/</link>
     </image>
     
     <item>
+      <title>High-Throughput ACL Pattern Matching via GPU-Accelerated Convolution</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/acl-pattern-matching/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/acl-pattern-matching/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A high-throughput network packet filtering engine built at Huawei R&amp;amp;D. The system treats each Access Control List (ACL) rule as a 5-dimensional filter and applies a &lt;strong&gt;convolutional linear scan&lt;/strong&gt; over millions of rules for incoming packets in parallel on Tesla V100 GPUs.&lt;/p&gt;
+&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;
+&lt;h3 id=&#34;gpu-accelerated-pattern-matching-engine&#34;&gt;GPU-Accelerated Pattern Matching Engine&lt;/h3&gt;
+&lt;p&gt;Treats each ACL rule as a 5-d filter (source IP, destination IP, source port, destination port, protocol) and applies a convolutional linear scan over millions of rules for incoming packets in parallel, achieving massive throughput gains over traditional CPU-based approaches.&lt;/p&gt;
+&lt;h3 id=&#34;structure-of-arrays-soa-rule-representation&#34;&gt;Structure-of-Arrays (SoA) Rule Representation&lt;/h3&gt;
+&lt;p&gt;Proposed a novel compact representation of &lt;strong&gt;26 bytes/rule&lt;/strong&gt;, enabling coalesced memory access across threads. The system stores up to &lt;strong&gt;5M rules within 124 MB of GPU memory&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;throughput--optimization-results&#34;&gt;Throughput &amp;amp; Optimization Results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;100M packets/second&lt;/strong&gt; at 1K rules&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;~80K packets/second&lt;/strong&gt; sustained at 5M rules&lt;/li&gt;
+&lt;li&gt;Early-termination on first full match minimizes wasted computation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPU Profiler&lt;/strong&gt;: Collects GPU specs on-the-fly and sweeps block/batch sizes, delivering up to &lt;strong&gt;1.5× total-time speedup&lt;/strong&gt; for the 5M-rule case by reducing kernel time ~30% via optimal batch partitioning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; C, C++, PyTorch, Linux Kernel, CPU/GPU Profiling&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SLAM-based Multi-Robot Communication &amp; Motion Control Suite</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/slam-robot-control/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/slam-robot-control/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A firmware engineering project at &lt;strong&gt;MineSense Technologies Ltd.&lt;/strong&gt; (Jan–Dec 2023), developing embedded systems for autonomous multi-robot coordination in industrial mining environments. The suite handles real-time navigation, obstacle avoidance, and inter-robot communication.&lt;/p&gt;
+&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;
+&lt;h3 id=&#34;embedded-firmware-development&#34;&gt;Embedded Firmware Development&lt;/h3&gt;
+&lt;p&gt;Developed and maintained embedded C firmware for robot control systems, with a focus on reliability, low-latency response, and hardware-level correctness across the robot fleet.&lt;/p&gt;
+&lt;h3 id=&#34;slam-sensor-integration&#34;&gt;SLAM Sensor Integration&lt;/h3&gt;
+&lt;p&gt;Integrated SLAM (Simultaneous Localization and Mapping) sensor suites for real-time navigation and obstacle avoidance, enabling robots to map and operate in unstructured industrial environments without pre-built maps.&lt;/p&gt;
+&lt;h3 id=&#34;motion--stability-control&#34;&gt;Motion &amp;amp; Stability Control&lt;/h3&gt;
+&lt;p&gt;Designed motion and stability control algorithms calibrated for the physical dynamics of mining equipment, ensuring safe and precise movement under varying load and terrain conditions.&lt;/p&gt;
+&lt;h3 id=&#34;communication-protocols&#34;&gt;Communication Protocols&lt;/h3&gt;
+&lt;p&gt;Designed robot-to-robot and robot-to-central-system communication protocols for coordinated multi-agent behaviour, including fault-tolerant messaging and state synchronization across the fleet.&lt;/p&gt;
+&lt;h3 id=&#34;regression-testing&#34;&gt;Regression Testing&lt;/h3&gt;
+&lt;p&gt;Validated system reliability and safety through systematic testing and debugging cycles, building regression suites to catch regressions introduced during iterative firmware development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; C, C++, Python, Swift (Mobile/iPad Controller UI), Linux Kernel, CI/CD&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Malware Filter Framework (MFF) — CNN Optimization</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/malware-filter-framework/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/malware-filter-framework/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Optimization and engineering overhaul of Huawei&amp;rsquo;s production Malware Filter Framework (MFF) at Anshi Lab. The work combined architectural improvements to the deep learning model with low-level systems engineering to achieve a dramatic performance improvement in a production security pipeline.&lt;/p&gt;
+&lt;h2 id=&#34;cnn-optimization-via-atrous-spatial-pyramid-pooling&#34;&gt;CNN Optimization via Atrous Spatial Pyramid Pooling&lt;/h2&gt;
+&lt;p&gt;Replaced standard convolutions in MFF with &lt;strong&gt;dilated (atrous) convolutions&lt;/strong&gt; using Spatial Pyramid Pooling, enabling the model to capture multi-scale features without increasing the number of parameters. Combined with feature-profiling and memory caching, this achieved a &lt;strong&gt;315% performance boost&lt;/strong&gt; over the baseline.&lt;/p&gt;
+&lt;h2 id=&#34;model-lifecycle--engineering-excellence&#34;&gt;Model Lifecycle &amp;amp; Engineering Excellence&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LLMOps Pipelines Management&lt;/strong&gt;: Directed multiple lifecycle components including Model Versioners, Validators, Regression Testing, Runtimes, Schedulers, Domain/Data-Drift Detectors, and Retrainers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Module Refactoring&lt;/strong&gt;: Drove codebase restructuring and introduced industry-leading testing and software build practices to improve engineering efficiency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technology Map&lt;/strong&gt;: Linux C, user-space process development, kernel module development, memory allocation optimization, and low-level performance instrumentation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; C, TensorFlow, Linux Kernel, CI/CD, MLflow, Weights &amp;amp; Biases, Docker, Kubernetes&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semantic LLM — Comprehensive Binary Analysis for Malware Detection</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/semantic-llm/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/semantic-llm/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A full-stack agentic AI system for zero-day binary malware analysis, built at Huawei R&amp;amp;D&amp;rsquo;s Anshi Lab. The system operates at the intersection of &lt;strong&gt;LLM for Security&lt;/strong&gt; (binary analysis) and &lt;strong&gt;Security for LLM&lt;/strong&gt; (adversarial robustness), and is deployed across heterogeneous hardware including Huawei NPU, GPU clusters, and IoT edge devices.&lt;/p&gt;
+&lt;h2 id=&#34;semantic-function-model-sfm&#34;&gt;Semantic Function Model (SFM)&lt;/h2&gt;
+&lt;p&gt;Developed two architecture variants for function-level binary analysis:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tokenless Instruction Set Transformer&lt;/strong&gt; — takes 32-dimensional architecture-specific instruction sets as input, eliminating the need for a separate tokenizer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intermediate Representation Tokenizer&lt;/strong&gt; — lifts binaries to LLVM IR with a POV Normalization Engine for architecture-agnostic analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;semantic-program-model-spm&#34;&gt;Semantic Program Model (SPM)&lt;/h2&gt;
+&lt;p&gt;Replaced Self-Attention with &lt;strong&gt;Holographic Reduced Representations (HRR)&lt;/strong&gt; in a transformer. This maps XOR-logic to the Query-Key interaction with O(T log T) complexity, enabling analysis of malicious binaries with 100,000+ functions. The symbolic binding operations act as a natural adversarial noise filter, making the model inherently resistant to adversarial attacks.&lt;/p&gt;
+&lt;h2 id=&#34;malware-analyst-llm&#34;&gt;Malware Analyst LLM&lt;/h2&gt;
+&lt;p&gt;Utilized &lt;strong&gt;Mixture-of-Experts (MoE)&lt;/strong&gt; routing across SFM and SPM pathways. Elevated the container framework with &lt;strong&gt;Agent Client Protocol (ACP)&lt;/strong&gt; and &lt;strong&gt;Model Context Protocol (MCP)&lt;/strong&gt; infrastructure that dynamically coordinates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;6 multi-turn Online Agents&lt;/strong&gt; including: Program Encoder Signature Generator, KNN Search, CFG Segment Classifier (GAT), LLM4Decompile Code Generation, and Pangu-R1 reasoning for explainability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10+ Autonomous Tools&lt;/strong&gt; including: Ghidra Pro Disassembler, LLVM IR Lifter, Static and Dynamic Behavior Logger (Emulator), and Chroma RAG-DB.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;downstream-capabilities&#34;&gt;Downstream Capabilities&lt;/h2&gt;
+&lt;p&gt;Scaled capabilities include &lt;strong&gt;Function DNA Matching&lt;/strong&gt;, vulnerability auditing, and cross-architecture code similarity search using high-dimensional function/program embeddings from SFM and SPM.&lt;/p&gt;
+&lt;h2 id=&#34;heterogeneous-hardware-deployment&#34;&gt;Heterogeneous Hardware Deployment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Huawei NPU&lt;/strong&gt;: W8A8 dynamic quantization via HiFloat (HF8) using CANN &amp;amp; ModelSlim.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IoT/Edge&lt;/strong&gt;: Progressive Teacher–Student Distillation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPU Clusters&lt;/strong&gt;: Mixed-precision training against open-source and in-house malware repositories.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; Python, C++, Assembly, PyTorch, Hugging Face (Transformers, PEFT), LoRA/QLoRA, CANN, vLLM, NVIDIA TensorRT-LLM, DSPy, PydanticAI, CrewAI, MCP, Pinecone, CPU/GPU/NPU Profiling&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Empirical Study on PTMs for App Reviews classification</title>
-      <link>/project/ptm-ar-classification/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/ptm-ar-classification/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/project/ptm-ar-classification/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/ptm-ar-classification/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Mobile app reviews written by users on app stores or social media are significant resources for app developers.Analyzing app reviews have proved to be useful for many areas of software engineering (e.g., requirement engineering, testing). Automatic classification of app reviews requires extensive efforts to manually curate a labeled dataset. When the classification purpose changes (e.g. identifying bugs versus usability issues or sentiment), new datasets should be labeled, which prevents the extensibility of the developed models for new desired classes/tasks in practice. Recent pre-trained neural language models (PTM) are trained on large corpora in an unsupervised manner and have found success in solving similar Natural Language Processing problems. However, the applicability of PTMs is not explored for app review classification.&lt;/p&gt;
 &lt;h2 id=&#34;objective&#34;&gt;Objective:&lt;/h2&gt;
@@ -43,9 +140,9 @@
     
     <item>
       <title>AOBTM</title>
-      <link>/project/aobtm/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/aobtm/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/project/aobtm/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/aobtm/</guid>
       <description>&lt;p&gt;Analysis of mobile app reviews has shown its important role in requirement engineering, software maintenance and evolution of mobile apps. Mobile app developers check their users&amp;rsquo; reviews frequently to clarify the issues experienced by users or capture the new issues that are introduced due to a recent app update. App reviews have a dynamic nature and their discussed topics change over time. The changes in the topics among collected reviews for different versions of an app can reveal important issues about the app update. A main technique in this analysis is using topic modeling algorithms. However, app reviews are short texts and it is challenging to unveil their latent topics over time. Conventional topic models such as Latent Dirichlet Allocation (LDA) and Probabilistic Latent Semantic Analysis (PLSA) suffer from the sparsity of word co-occurrence patterns while inferring topics for short texts. Furthermore, these algorithms cannot capture topics over numerous consecutive time-slices (or versions). Online topic modeling algorithms such as Online LDA (OLDA) and Online Biterm Topic Model (OBTM) speed up the inference of topic models for the texts collected in the latest time-slice by saving a fraction of data from the previous time-slice. But these algorithms do not analyze the statistical-data of all the previous time-slices, which can confer contributions to the topic distribution of the current time-slice.In this paper, we propose Adaptive Online Biterm Topic Model (AOBTM) to model topics in short texts adaptively. AOBTM alleviates the sparsity problem in short-texts and considers the statistical-data for an optimal number of previous time-slices. We also propose parallel algorithms to automatically determine the optimal number of topics and the best number of previous versions that should be considered in topic inference phase. Automatic evaluation on collections of app reviews and real-world short text datasets confirm that AOBTM can find more coherent topics and outperforms the state-of-the-art baselines. For reproducibility of the results, we open source all scripts.&lt;/p&gt;
 &lt;p&gt;In this paper, we propose a new adaptive online topic model for short texts which takes previous versions’ varying contribution into account. We refer to this novel model as the Adaptive Online Biterm Topic Model (AOBTM). AOBTM inherits the characteristics of BTM to deal with the data sparsity issue. It is an online algorithm that can scale for the increasing volume of the dataset that is generated frequently. AOBTM also endows the statistics of the previous versions with different contributions to the topic distributions of the current version of the dataset. Also, we have employed a preprocessing technique that is useful for yielding better top contributing key-terms to help the manual investigation of the inferred topics. Our contributions are enlisted below:&lt;/p&gt;
 &lt;ul&gt;
@@ -65,9 +162,9 @@
     
     <item>
       <title>Review-Viz</title>
-      <link>/project/review-viz/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/review-viz/</link>
       <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/project/review-viz/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/review-viz/</guid>
       <description>&lt;p&gt;In our recent work, we have developed a replication package for the mobile application developers to help them isolate/classify energyrelated feedbacks from app-reviews and further investigate these reviews for potential issues crucial to the energy efficiency of the application. This package lets the developer decide which model to use and which features to choose based on their convenience at any given time. Additionally, the package helps the developer to deploy topic modeling algorithms to identify new issues/causes related to energy efficiency. Using this package, we have performed an empirical study with the participation of 4 developers. They have exhaustively performed all the models, feature combinations, and different topic modeling algorithms and carefully examined the generated result set manually.&lt;/p&gt;
 &lt;h2 id=&#34;contribution&#34;&gt;Contribution&lt;/h2&gt;
 &lt;p&gt;The resultant computational analysis (much like the output of our replication package) can be effectively combined with human reasoning with the help of powerful visualization that could lead to increased efficiency and more valuable results. So, we developed an interactive visualization tool to help the developers assimilate the result of the discussed empirical study of over 90 models, features combinations. Additionally, The tool also helps to visualize the output of the topic modeling algorithms to identify recent potential issues most likely to cause energy inefficiency in the app. For flexibility, it gives the developers options to choose the representation of a certain outcome.&lt;/p&gt;
@@ -80,9 +177,9 @@
     
     <item>
       <title>Geo Spaial Data Visualization</title>
-      <link>/project/geo-spatial-election-viz/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/geo-spatial-election-viz/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/project/geo-spatial-election-viz/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/geo-spatial-election-viz/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Open data published by various organizations is intended to make the data available to the public. All over the world, numerous organizations maintain a considerable number of open databases containing a lot of facts and numbers. However, most of them do not offer a concise and insightful data interpretation or visualization tool, which can help users to process all of the information in a consistently comparable way. Canadian Federal and Provincial Elections is an example of these databases. This information exists in numerous websites, as separate tables so that the user needs to traverse through a tree structure of scattered information on the site, and the user is left with the comparison, without providing proper tools, datainterpretation or visualizations.&lt;/p&gt;
 &lt;p&gt;In this paper, we provide technical details of addressing this problem, by using the Canadian Elections data (since 1867) as a specific case study as it has numerous technical challenges. We hope that the methodology used here can help in developing similar tools to achieve some of the goals of publicly available datasets. The developed tool contains data visualization, trend analysis, and prediction components. The visualization enables the users to interact with the data through various techniques, including Geospatial visualization. To reproduce the results, we have open-sourced the tool.&lt;/p&gt;

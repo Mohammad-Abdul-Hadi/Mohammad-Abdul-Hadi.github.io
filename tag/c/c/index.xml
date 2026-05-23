@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C/C&#43;&#43; | Mohammad Abdul Hadi</title>
+    <link>https://Mohammad-Abdul-Hadi.github.io/tag/c/c/</link>
+      <atom:link href="https://Mohammad-Abdul-Hadi.github.io/tag/c/c/index.xml" rel="self" type="application/rss+xml" />
+    <description>C/C&#43;&#43;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2026</copyright><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Mohammad-Abdul-Hadi.github.io/images/icon_hu_b453e4e1cf4dca05.png</url>
+      <title>C/C&#43;&#43;</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/tag/c/c/</link>
+    </image>
+    
+    <item>
+      <title>High-Throughput ACL Pattern Matching via GPU-Accelerated Convolution</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/acl-pattern-matching/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/acl-pattern-matching/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A high-throughput network packet filtering engine built at Huawei R&amp;amp;D. The system treats each Access Control List (ACL) rule as a 5-dimensional filter and applies a &lt;strong&gt;convolutional linear scan&lt;/strong&gt; over millions of rules for incoming packets in parallel on Tesla V100 GPUs.&lt;/p&gt;
+&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;
+&lt;h3 id=&#34;gpu-accelerated-pattern-matching-engine&#34;&gt;GPU-Accelerated Pattern Matching Engine&lt;/h3&gt;
+&lt;p&gt;Treats each ACL rule as a 5-d filter (source IP, destination IP, source port, destination port, protocol) and applies a convolutional linear scan over millions of rules for incoming packets in parallel, achieving massive throughput gains over traditional CPU-based approaches.&lt;/p&gt;
+&lt;h3 id=&#34;structure-of-arrays-soa-rule-representation&#34;&gt;Structure-of-Arrays (SoA) Rule Representation&lt;/h3&gt;
+&lt;p&gt;Proposed a novel compact representation of &lt;strong&gt;26 bytes/rule&lt;/strong&gt;, enabling coalesced memory access across threads. The system stores up to &lt;strong&gt;5M rules within 124 MB of GPU memory&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;throughput--optimization-results&#34;&gt;Throughput &amp;amp; Optimization Results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;100M packets/second&lt;/strong&gt; at 1K rules&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;~80K packets/second&lt;/strong&gt; sustained at 5M rules&lt;/li&gt;
+&lt;li&gt;Early-termination on first full match minimizes wasted computation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPU Profiler&lt;/strong&gt;: Collects GPU specs on-the-fly and sweeps block/batch sizes, delivering up to &lt;strong&gt;1.5× total-time speedup&lt;/strong&gt; for the 5M-rule case by reducing kernel time ~30% via optimal batch partitioning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; C, C++, PyTorch, Linux Kernel, CPU/GPU Profiling&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SLAM-based Multi-Robot Communication &amp; Motion Control Suite</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/slam-robot-control/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/slam-robot-control/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A firmware engineering project at &lt;strong&gt;MineSense Technologies Ltd.&lt;/strong&gt; (Jan–Dec 2023), developing embedded systems for autonomous multi-robot coordination in industrial mining environments. The suite handles real-time navigation, obstacle avoidance, and inter-robot communication.&lt;/p&gt;
+&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;
+&lt;h3 id=&#34;embedded-firmware-development&#34;&gt;Embedded Firmware Development&lt;/h3&gt;
+&lt;p&gt;Developed and maintained embedded C firmware for robot control systems, with a focus on reliability, low-latency response, and hardware-level correctness across the robot fleet.&lt;/p&gt;
+&lt;h3 id=&#34;slam-sensor-integration&#34;&gt;SLAM Sensor Integration&lt;/h3&gt;
+&lt;p&gt;Integrated SLAM (Simultaneous Localization and Mapping) sensor suites for real-time navigation and obstacle avoidance, enabling robots to map and operate in unstructured industrial environments without pre-built maps.&lt;/p&gt;
+&lt;h3 id=&#34;motion--stability-control&#34;&gt;Motion &amp;amp; Stability Control&lt;/h3&gt;
+&lt;p&gt;Designed motion and stability control algorithms calibrated for the physical dynamics of mining equipment, ensuring safe and precise movement under varying load and terrain conditions.&lt;/p&gt;
+&lt;h3 id=&#34;communication-protocols&#34;&gt;Communication Protocols&lt;/h3&gt;
+&lt;p&gt;Designed robot-to-robot and robot-to-central-system communication protocols for coordinated multi-agent behaviour, including fault-tolerant messaging and state synchronization across the fleet.&lt;/p&gt;
+&lt;h3 id=&#34;regression-testing&#34;&gt;Regression Testing&lt;/h3&gt;
+&lt;p&gt;Validated system reliability and safety through systematic testing and debugging cycles, building regression suites to catch regressions introduced during iterative firmware development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; C, C++, Python, Swift (Mobile/iPad Controller UI), Linux Kernel, CI/CD&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Malware Filter Framework (MFF) — CNN Optimization</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/project/malware-filter-framework/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/project/malware-filter-framework/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Optimization and engineering overhaul of Huawei&amp;rsquo;s production Malware Filter Framework (MFF) at Anshi Lab. The work combined architectural improvements to the deep learning model with low-level systems engineering to achieve a dramatic performance improvement in a production security pipeline.&lt;/p&gt;
+&lt;h2 id=&#34;cnn-optimization-via-atrous-spatial-pyramid-pooling&#34;&gt;CNN Optimization via Atrous Spatial Pyramid Pooling&lt;/h2&gt;
+&lt;p&gt;Replaced standard convolutions in MFF with &lt;strong&gt;dilated (atrous) convolutions&lt;/strong&gt; using Spatial Pyramid Pooling, enabling the model to capture multi-scale features without increasing the number of parameters. Combined with feature-profiling and memory caching, this achieved a &lt;strong&gt;315% performance boost&lt;/strong&gt; over the baseline.&lt;/p&gt;
+&lt;h2 id=&#34;model-lifecycle--engineering-excellence&#34;&gt;Model Lifecycle &amp;amp; Engineering Excellence&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LLMOps Pipelines Management&lt;/strong&gt;: Directed multiple lifecycle components including Model Versioners, Validators, Regression Testing, Runtimes, Schedulers, Domain/Data-Drift Detectors, and Retrainers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Module Refactoring&lt;/strong&gt;: Drove codebase restructuring and introduced industry-leading testing and software build practices to improve engineering efficiency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technology Map&lt;/strong&gt;: Linux C, user-space process development, kernel module development, memory allocation optimization, and low-level performance instrumentation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; C, TensorFlow, Linux Kernel, CI/CD, MLflow, Weights &amp;amp; Biases, Docker, Kubernetes&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

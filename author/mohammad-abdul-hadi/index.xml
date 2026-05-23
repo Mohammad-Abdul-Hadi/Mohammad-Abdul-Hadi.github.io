@@ -2,29 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mohammad Abdul Hadi</title>
-    <link>/author/mohammad-abdul-hadi/</link>
-      <atom:link href="/author/mohammad-abdul-hadi/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://Mohammad-Abdul-Hadi.github.io/author/mohammad-abdul-hadi/</link>
+      <atom:link href="https://Mohammad-Abdul-Hadi.github.io/author/mohammad-abdul-hadi/index.xml" rel="self" type="application/rss+xml" />
     <description>Mohammad Abdul Hadi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2021</copyright><lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2026</copyright><lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu837153259aa3eaf233be5c21ab790472_13982_512x512_fill_lanczos_center_2.png</url>
+      <url>https://Mohammad-Abdul-Hadi.github.io/images/icon_hu_b453e4e1cf4dca05.png</url>
       <title>Mohammad Abdul Hadi</title>
-      <link>/author/mohammad-abdul-hadi/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/author/mohammad-abdul-hadi/</link>
     </image>
     
     <item>
       <title>Evaluating Pre-Trained Models for User Feedback Analysis in Software Engineering</title>
-      <link>/publication/emp-study-on-ptms/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/publication/emp-study-on-ptms/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/emp-study-on-ptms/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/publication/emp-study-on-ptms/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>PTM Empirical Study</title>
-      <link>/slides/emp-study-ptm/</link>
+      <title>Mohammad Abdul Hadi</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/author/mohammad-abdul-hadi/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/slides/emp-study-ptm/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/author/mohammad-abdul-hadi/</guid>
+      <description>&lt;div style=&#34;font-size: 0.92rem; line-height: 1.7; text-align: justify;&#34;&gt;
+&lt;p&gt;I am currently working as an &lt;strong&gt;AI Security Researcher&lt;/strong&gt; (&lt;em&gt;level: Senior Software Engineer&lt;/em&gt;) at &lt;a href=&#34;https://www.huawei.com/&#34;&gt;Huawei R&amp;amp;D&amp;rsquo;s Anshi Lab&lt;/a&gt; in Burnaby, BC. My work operates at the intersection of Malware Analysis (LLMs for Security) and Adversarial Machine Learning (Security for LLMs). I specialize in LLM architecture optimization, Transfer Learning, Multi-agent and Tool Orchestration (MCP), and hardware-aware scaling across diverse physical environments.&lt;/p&gt;
+&lt;p&gt;I hold an MSc in Computer Science from the &lt;a href=&#34;https://www.ubc.ca/&#34;&gt;University of British Columbia&lt;/a&gt;. Before my current role at Huawei, I worked as a Firmware Engineer at MineSense Technologies and as a Research Assistant at the &lt;a href=&#34;https://soarsmu.github.io/&#34;&gt;SOftware Analytics and Research (SOAR) Lab&lt;/a&gt; at Singapore Management University. I received my BSc in Computer Science and Engineering from &lt;a href=&#34;http://www.northsouth.edu/&#34;&gt;North South University&lt;/a&gt;, graduating as the Salutatorian with VC&amp;rsquo;s Gold Medal, and spent the early years of my career serving as a Lecturer at &lt;a href=&#34;http://www.easternuni.edu.bd/&#34;&gt;Eastern University&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Currently, I am leading the architecture and development of an &lt;span style=&#34;color: #E65C00;&#34;&gt;Agentic LLM ecosystem that utilizes 15+ autonomous agents and tools for zero-day binary malware analysis&lt;/span&gt;. My engineering philosophy revolves around pushing the boundaries of AI infrastructure—whether by &lt;span style=&#34;color: #E65C00;&#34;&gt;recasting transformer architectures with Vector Symbolic Architecture (VSA)&lt;/span&gt;, implementing &lt;span style=&#34;color: #E65C00;&#34;&gt;Mixture-of-Experts (MoE) routing&lt;/span&gt;, or &lt;span style=&#34;color: #E65C00;&#34;&gt;optimizing hardware deployment&lt;/span&gt; across NPU, GPU clusters, and IoT edge devices to achieve massive production performance gains.&lt;/p&gt;
+&lt;p&gt;Beyond my engineering work, I am an active published researcher with over &lt;em&gt;150 citations across A* and A-rated conferences&lt;/em&gt;. I also remain deeply committed to community service and mentorship. I actively mentor teams building AI tools for social impact, such as speech-to-text LLMs for medical history collection, and have designed programming workshops to empower the next generation of tech leaders.&lt;/p&gt;
+&lt;!--
+The field of my research encompasses a broad spectrum of Artificial Intelligence, Machine Learning, and Software Engineering. I aim to build AI-driven intelligent software products, components to deal with crucial problems for both individual and community.
+
+Currently, I am working on different Topic Modeling algorithms and Text Classification techniques for handling software development issues faced by application developers. Part of my research focuses on the mathematical interpretability and scientific visualization of conventional Machine Learning algorithms. I am also designing an interactive analytical tool for different customizable Neural Network architectures.
+
+Other than being a researcher, I motivate, mentor, and supervise young underprivileged students who aim to become stellar researchers and technology leaders. I am currently managing two different research groups in Bangladesh that are working with the local inhabitants to deliver practical and optimized solutions to community-specific problems.
+
+--&gt;
+&lt;p&gt;&lt;strong&gt;My Favorite quote:&lt;/strong&gt;
+&lt;em&gt;Only in their dreams can men be truly free,&lt;/em&gt;
+&lt;em&gt;&amp;rsquo;twas always thus and always thus will be!&lt;/em&gt;
+&amp;ndash; John Keating (Dead Poet&amp;rsquo;s Society)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Some Fun Facts:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I have my most creative ideas when I am PROCRASTINATING!!&lt;/li&gt;
+&lt;li&gt;My surname &lt;em&gt;Hadi&lt;/em&gt; translates to &lt;em&gt;Guide to Righteousness&lt;/em&gt;, and I thrive to be one.&lt;/li&gt;
+&lt;li&gt;I am a 
+&lt;a href=&#34;http://www.abc.net.au/science/articles/2006/12/13/1810399.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Night Owl&lt;/a&gt;. I find it so much easier to be creatively free at night. &lt;em&gt;&amp;ldquo;The deeper the night gets, the further into another world I go.&amp;rdquo;&lt;/em&gt; &amp;ndash; Mark Ryden&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Pastimes:&lt;/strong&gt; I enjoy reading books (Fiction/Sci-Fi/Detective/Classic), cooking my favourite meals, drinking good coffee, writing my crazy thoughts down, taking strolls down the memory lane, wood-crafting (new interest), and participating voluntary religious activities in nearby mosque.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Attributes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Determined to make a difference to individuals and communities&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Fastidious, urbane, and eloquent with excellent communication skills&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Approachable and non-judgmental&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Self-Motivated, quick learning, and patient&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Willing to step outside the comfort zone to cultivate diverse skillset&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Always on my way to take challenges to unlock untapped potential&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Eager to build a rich repertoire by searching beyond immediate horizon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PTM Empirical Study</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/slides/emp-study-ptm/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/slides/emp-study-ptm/</guid>
       <description>&lt;h1 id=&#34;evaluating-ptms-for-user-feedback-analysis-in-se&#34;&gt;Evaluating PTMS for User Feedback Analysis in SE&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://arxiv.org/pdf/2104.05861&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pre-print&lt;/a&gt; | 
@@ -103,17 +147,17 @@
     
     <item>
       <title>AOBTM - Adaptive Online Biterm Topic Modeling for Version Sensitive Short-texts Analysis</title>
-      <link>/publication/aobtm/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/publication/aobtm/</link>
       <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/aobtm/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/publication/aobtm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AOBTM</title>
-      <link>/slides/aobtm/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/slides/aobtm/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/slides/aobtm/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/slides/aobtm/</guid>
       <description>&lt;h1 id=&#34;aobtm---adaptive-online-biterm-topic-model&#34;&gt;AOBTM - Adaptive Online Biterm Topic Model&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://github.com/Mohammad-Abdul-Hadi/AOBTM-Adaptive-Online-Biterm-Topic-Modeling&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt; | 
@@ -181,9 +225,9 @@
     
     <item>
       <title>Review-Viz</title>
-      <link>/slides/review-viz/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/slides/review-viz/</link>
       <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/slides/review-viz/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/slides/review-viz/</guid>
       <description>&lt;h2 id=&#34;reviewviz---assisting-developers-perform-empirical-study-on-energy-related-app-reviews&#34;&gt;ReviewViz - Assisting Developers Perform Empirical Study on Energy Related App Reviews&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://github.com/Mohammad-Abdul-Hadi/Result-Set-Visualization-d3js-R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt; | 
@@ -230,17 +274,17 @@
     
     <item>
       <title>ReviewViz - Assisting Developers Perform Empirical Study on Energy Consumption Related Reviews for Mobile Applications</title>
-      <link>/publication/review-viz/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/publication/review-viz/</link>
       <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/review-viz/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/publication/review-viz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geo Spaial Data Visualization</title>
-      <link>/slides/geo-spatial-election-viz/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/slides/geo-spatial-election-viz/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/slides/geo-spatial-election-viz/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/slides/geo-spatial-election-viz/</guid>
       <description>&lt;h1 id=&#34;geo-spaial-data-visualization&#34;&gt;Geo Spaial Data Visualization&lt;/h1&gt;
 &lt;h3 id=&#34;and-critical-metrics-predictions-for-canadian-elections&#34;&gt;and Critical Metrics Predictions for Canadian Elections&lt;/h3&gt;
 &lt;p&gt;
@@ -312,21 +356,21 @@
     
     <item>
       <title>Geo-Spatial Data Visualization and Critical Metrics Predictions for Canadian Elections</title>
-      <link>/publication/geo-spatial-election-viz/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/publication/geo-spatial-election-viz/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/geo-spatial-election-viz/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/publication/geo-spatial-election-viz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/post/jupyter/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
 Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Mohammad-Abdul-Hadi.github.io/post/jupyter/index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;Welcome to Academic!
@@ -363,15 +407,16 @@ date: 2019-09-01
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This post was created with Jupyter. The orginal files can be found at 
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Academic: the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
+      <link>https://Mohammad-Abdul-Hadi.github.io/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/post/getting-started/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 
@@ -394,7 +439,7 @@ date: 2019-09-01
 &lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and 
 &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;❤️ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
+&lt;li&gt;&amp;#x2764;&amp;#xfe0f; &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
 &lt;ul&gt;
 &lt;li&gt;☕️ 
 &lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
@@ -404,7 +449,7 @@ date: 2019-09-01
 &lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;👕 
 &lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👩‍💻 
+&lt;li&gt;&amp;#x1f469;&amp;zwj;&amp;#x1f4bb; 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
