@@ -5,12 +5,30 @@
     <link>https://Mohammad-Abdul-Hadi.github.io/publication-type/3/</link>
       <atom:link href="https://Mohammad-Abdul-Hadi.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2026</copyright><lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2026</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Mohammad-Abdul-Hadi.github.io/images/icon_hu_b453e4e1cf4dca05.png</url>
       <title>3</title>
       <link>https://Mohammad-Abdul-Hadi.github.io/publication-type/3/</link>
     </image>
+    
+    <item>
+      <title>FACOS: Finding API Relevant Contents on Stack Overflow with Semantic and Syntactic Analysis</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/publication/facos-api-stackoverflow/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/publication/facos-api-stackoverflow/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Stack Overflow is the primary resource for developers seeking API usage examples, error explanations, and best practices. However, finding the most relevant posts for a specific API query remains a challenge — keyword search often surfaces too many irrelevant results, while semantic search alone misses syntactically precise matches.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FACOS&lt;/strong&gt; (Finding API Contents On Stack Overflow) addresses this by combining:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Semantic analysis&lt;/strong&gt;: leveraging PTMs to understand the intent behind API-related queries and map them to conceptually similar Stack Overflow discussions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Syntactic analysis&lt;/strong&gt;: using code structure and API call signatures to identify posts with exact or near-exact API usage patterns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;
+&lt;p&gt;FACOS fuses both signals into a unified ranking model, trained and evaluated on a curated benchmark of API queries paired with their ground-truth relevant Stack Overflow posts. The hybrid approach consistently outperforms pure semantic and pure syntactic baselines.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Published at:&lt;/strong&gt; arXiv preprint arXiv:2111.07238, 2021 · &lt;strong&gt;Citations:&lt;/strong&gt; 7&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Evaluating Pre-Trained Models for User Feedback Analysis in Software Engineering</title>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lingxiao Jiang | Mohammad Abdul Hadi</title>
+    <link>https://Mohammad-Abdul-Hadi.github.io/author/lingxiao-jiang/</link>
+      <atom:link href="https://Mohammad-Abdul-Hadi.github.io/author/lingxiao-jiang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lingxiao Jiang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2026</copyright><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Mohammad-Abdul-Hadi.github.io/images/icon_hu_b453e4e1cf4dca05.png</url>
+      <title>Lingxiao Jiang</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/author/lingxiao-jiang/</link>
+    </image>
+    
+    <item>
+      <title>On the Effectiveness of Pretrained Models for API Learning</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/publication/pretrained-models-api-learning/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/publication/pretrained-models-api-learning/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Pre-trained language models (PTMs) such as BERT, CodeBERT, and GPT variants have transformed NLP and are increasingly applied to software engineering tasks. This paper presents a systematic empirical study of PTM effectiveness specifically for &lt;strong&gt;API learning&lt;/strong&gt; — the task of understanding, completing, and recommending API usage sequences from mixed natural-language and code inputs.&lt;/p&gt;
+&lt;h2 id=&#34;research-questions&#34;&gt;Research Questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How effective are PTMs at API sequence completion compared to non-PTM approaches?&lt;/li&gt;
+&lt;li&gt;Does domain-specific pre-training (e.g., code-focused PTMs) outperform general PTMs for API learning?&lt;/li&gt;
+&lt;li&gt;How well do PTMs generalize across programming languages for cross-lingual API mapping?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-findings&#34;&gt;Key Findings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PTMs consistently outperform traditional baselines on API learning tasks, particularly in low-resource settings.&lt;/li&gt;
+&lt;li&gt;Code-specific PTMs (e.g., CodeBERT) provide measurable gains over general-purpose PTMs on code-centric subtasks.&lt;/li&gt;
+&lt;li&gt;Cross-lingual transfer is effective, with PTMs showing strong generalization across Java and Python API benchmarks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Published at:&lt;/strong&gt; IEEE/ACM International Conference on Program Comprehension (ICPC) 2022 · &lt;strong&gt;Citations:&lt;/strong&gt; 19&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

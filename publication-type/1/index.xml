@@ -5,12 +5,54 @@
     <link>https://Mohammad-Abdul-Hadi.github.io/publication-type/1/</link>
       <atom:link href="https://Mohammad-Abdul-Hadi.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2026</copyright><lastBuildDate>Mon, 28 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2026</copyright><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Mohammad-Abdul-Hadi.github.io/images/icon_hu_b453e4e1cf4dca05.png</url>
       <title>1</title>
       <link>https://Mohammad-Abdul-Hadi.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>ARSeek: Identifying API Resource Using Code and Discussion on Stack Overflow</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/publication/arseek-api-stackoverflow/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/publication/arseek-api-stackoverflow/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;When developers look for API resources, they rely on two complementary information sources: &lt;strong&gt;code&lt;/strong&gt; (showing how an API is called) and &lt;strong&gt;discussion&lt;/strong&gt; (explaining why and when to use it). ARSeek is a retrieval system that jointly exploits both modalities from Stack Overflow to identify the most relevant API resources for a given developer query.&lt;/p&gt;
+&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code signal&lt;/strong&gt;: Extracts API call patterns and signatures from Stack Overflow answer code blocks, matched against query API names and contexts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discussion signal&lt;/strong&gt;: Applies PTM-based semantic analysis to Stack Overflow post bodies and titles to understand the conceptual relevance of each post to the query.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Joint ranking&lt;/strong&gt;: Fuses both signals into a unified ranking model that outperforms either modality used alone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-results&#34;&gt;Key Results&lt;/h2&gt;
+&lt;p&gt;ARSeek consistently outperforms code-only and text-only baselines on the API resource identification benchmark, demonstrating that the two modalities provide complementary signals that are stronger in combination.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Published at:&lt;/strong&gt; IEEE/ACM International Conference on Program Comprehension (ICPC) 2022 · &lt;strong&gt;Citations:&lt;/strong&gt; 6&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On the Effectiveness of Pretrained Models for API Learning</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/publication/pretrained-models-api-learning/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://Mohammad-Abdul-Hadi.github.io/publication/pretrained-models-api-learning/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Pre-trained language models (PTMs) such as BERT, CodeBERT, and GPT variants have transformed NLP and are increasingly applied to software engineering tasks. This paper presents a systematic empirical study of PTM effectiveness specifically for &lt;strong&gt;API learning&lt;/strong&gt; — the task of understanding, completing, and recommending API usage sequences from mixed natural-language and code inputs.&lt;/p&gt;
+&lt;h2 id=&#34;research-questions&#34;&gt;Research Questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How effective are PTMs at API sequence completion compared to non-PTM approaches?&lt;/li&gt;
+&lt;li&gt;Does domain-specific pre-training (e.g., code-focused PTMs) outperform general PTMs for API learning?&lt;/li&gt;
+&lt;li&gt;How well do PTMs generalize across programming languages for cross-lingual API mapping?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-findings&#34;&gt;Key Findings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PTMs consistently outperform traditional baselines on API learning tasks, particularly in low-resource settings.&lt;/li&gt;
+&lt;li&gt;Code-specific PTMs (e.g., CodeBERT) provide measurable gains over general-purpose PTMs on code-centric subtasks.&lt;/li&gt;
+&lt;li&gt;Cross-lingual transfer is effective, with PTMs showing strong generalization across Java and Python API benchmarks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Published at:&lt;/strong&gt; IEEE/ACM International Conference on Program Comprehension (ICPC) 2022 · &lt;strong&gt;Citations:&lt;/strong&gt; 19&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>AOBTM - Adaptive Online Biterm Topic Modeling for Version Sensitive Short-texts Analysis</title>

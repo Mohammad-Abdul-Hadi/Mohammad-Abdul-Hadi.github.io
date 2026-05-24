@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Mohammad Abdul Hadi</title>
-    <link>https://Mohammad-Abdul-Hadi.github.io/publication/</link>
-      <atom:link href="https://Mohammad-Abdul-Hadi.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>Ferdian Thung | Mohammad Abdul Hadi</title>
+    <link>https://Mohammad-Abdul-Hadi.github.io/author/ferdian-thung/</link>
+      <atom:link href="https://Mohammad-Abdul-Hadi.github.io/author/ferdian-thung/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ferdian Thung</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mohammad-Abdul-Hadi, 2026</copyright><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Mohammad-Abdul-Hadi.github.io/images/icon_hu_b453e4e1cf4dca05.png</url>
-      <title>Publications</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/publication/</link>
+      <title>Ferdian Thung</title>
+      <link>https://Mohammad-Abdul-Hadi.github.io/author/ferdian-thung/</link>
     </image>
     
     <item>
@@ -70,38 +70,6 @@
 &lt;p&gt;FACOS fuses both signals into a unified ranking model, trained and evaluated on a curated benchmark of API queries paired with their ground-truth relevant Stack Overflow posts. The hybrid approach consistently outperforms pure semantic and pure syntactic baselines.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Published at:&lt;/strong&gt; arXiv preprint arXiv:2111.07238, 2021 · &lt;strong&gt;Citations:&lt;/strong&gt; 7&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Evaluating Pre-Trained Models for User Feedback Analysis in Software Engineering</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/publication/emp-study-on-ptms/</link>
-      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://Mohammad-Abdul-Hadi.github.io/publication/emp-study-on-ptms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AOBTM - Adaptive Online Biterm Topic Modeling for Version Sensitive Short-texts Analysis</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/publication/aobtm/</link>
-      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://Mohammad-Abdul-Hadi.github.io/publication/aobtm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReviewViz - Assisting Developers Perform Empirical Study on Energy Consumption Related Reviews for Mobile Applications</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/publication/review-viz/</link>
-      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://Mohammad-Abdul-Hadi.github.io/publication/review-viz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Geo-Spatial Data Visualization and Critical Metrics Predictions for Canadian Elections</title>
-      <link>https://Mohammad-Abdul-Hadi.github.io/publication/geo-spatial-election-viz/</link>
-      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://Mohammad-Abdul-Hadi.github.io/publication/geo-spatial-election-viz/</guid>
-      <description></description>
     </item>
     
   </channel>
