@@ -531,6 +531,120 @@ body.dark .read-more-toggle:hover { background: rgba(255,255,255,0.1); }
 body.dark .exp-accordion-content::after { background: linear-gradient(to bottom, rgba(34,34,34,0), rgba(34,34,34,1)); }
 
  
+.resume-modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background: rgba(15, 12, 41, 0.75);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.resume-modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+.resume-modal {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 2.5rem 2rem 2rem;
+    text-align: center;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.3);
+    transform: translateY(24px) scale(0.96);
+    opacity: 0;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.35s ease;
+}
+.resume-modal-overlay.active .resume-modal {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+.resume-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    border: none;
+    background: transparent;
+    font-size: 1.7rem;
+    line-height: 1;
+    color: #aaa;
+    cursor: pointer;
+    transition: color 0.2s ease, transform 0.3s ease;
+}
+.resume-modal-close:hover {
+    color: #302b63;
+    transform: rotate(90deg);
+}
+.resume-modal-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1.25rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    color: #fff;
+    background: linear-gradient(135deg, #0f0c29, #302b63);
+    box-shadow: 0 8px 20px rgba(48,43,99,0.35);
+}
+.resume-modal h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 0.75rem;
+}
+.resume-modal p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1.75rem;
+}
+.resume-modal-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+    padding: 0.75rem 1.75rem;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #fff;
+    background: linear-gradient(135deg, #0f0c29, #302b63);
+    cursor: pointer;
+    box-shadow: 0 6px 16px rgba(48,43,99,0.3);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.resume-modal-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px rgba(48,43,99,0.4);
+}
+.resume-modal-cta i {
+    transition: transform 0.25s ease;
+}
+.resume-modal-cta:hover i {
+    transform: translateX(3px);
+}
+body.resume-modal-open {
+    overflow: hidden;
+}
+
+ 
+body.dark .resume-modal { background: #1e1e1e; box-shadow: 0 25px 60px rgba(0,0,0,0.55); }
+body.dark .resume-modal h3 { color: #f5f5f5; }
+body.dark .resume-modal p { color: #aaa; }
+body.dark .resume-modal-close { color: #777; }
+body.dark .resume-modal-close:hover { color: #20c997; }
+
+ 
  
 #accomplishments .col-12.col-lg-8 {
     display: flex !important;
@@ -761,6 +875,60 @@ document.addEventListener("DOMContentLoaded", function() {
     btnAcademic.addEventListener('click', () => {
         btnAcademic.classList.add('active'); btnIndustry.classList.remove('active');
         tabAcademic.classList.add('active'); tabIndustry.classList.remove('active');
+    });
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    
+    const overlay = document.createElement('div');
+    overlay.className = 'resume-modal-overlay';
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+    overlay.innerHTML = [
+        '<div class="resume-modal">',
+        '<button type="button" class="resume-modal-close" aria-label="Close">&times;</button>',
+        '<div class="resume-modal-icon"><i class="fas fa-file-alt" aria-hidden="true"></i></div>',
+        '<h3 id="resume-modal-title">Resume Available on Request</h3>',
+        '<p>I keep my resume current and share it directly rather than posting it publicly. Reach out and I\'ll send you the latest copy right away.</p>',
+        '<button type="button" class="resume-modal-cta">Get in Touch <i class="fas fa-arrow-right" aria-hidden="true"></i></button>',
+        '</div>'
+    ].join('');
+    document.body.appendChild(overlay);
+
+    function openModal() {
+        overlay.classList.add('active');
+        document.body.classList.add('resume-modal-open');
+    }
+    function closeModal() {
+        overlay.classList.remove('active');
+        document.body.classList.remove('resume-modal-open');
+    }
+
+    overlay.querySelector('.resume-modal-close').addEventListener('click', closeModal);
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay) closeModal();
+    });
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && overlay.classList.contains('active')) closeModal();
+    });
+    overlay.querySelector('.resume-modal-cta').addEventListener('click', function() {
+        closeModal();
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            window.location.href = '\/#contact';
+        }
+    });
+
+    
+    document.querySelectorAll('a[href$="#resume-request"]').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            openModal();
+        });
     });
 });
 </script>
@@ -1089,9 +1257,16 @@ document.addEventListener("DOMContentLoaded", function() {
         
         
         
+          
+          
+          
+            
+          
+          
+        
 
         <li class="nav-item">
-          <a class="nav-link " href="/files/resume.pdf"><span>Resume</span></a>
+          <a class="nav-link " href="/#resume-request"><span>Resume</span></a>
         </li>
 
         
@@ -1420,22 +1595,22 @@ Crash --&gt; [*]
 </code></pre>
 <p>renders as</p>
 <table>
-  <thead>
-      <tr>
-          <th>First Header</th>
-          <th>Second Header</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Content Cell</td>
-          <td>Content Cell</td>
-      </tr>
-      <tr>
-          <td>Content Cell</td>
-          <td>Content Cell</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>First Header</th>
+					<th>Second Header</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Content Cell</td>
+					<td>Content Cell</td>
+			</tr>
+			<tr>
+					<td>Content Cell</td>
+					<td>Content Cell</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="asides">Asides</h3>
 <p>Academic supports a 
